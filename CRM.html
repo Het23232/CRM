@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Cdn Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <ul class="menu">
+                <li class="active">
+                    <a href="#">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Statistics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Careers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-star"></i>
+                        <span>Testimonials</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div> 
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span>Primary</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                    <i class="fa-solid
+                    fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <img src="/Image/1.jpg" alt="">
+            </div>
+        </div>
+        <div class="card--container">
+        <h3 class="main--title">Today's date</h3>
+            <div class="card--wrapper">
+                <div class="payment--card light-red">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">payment amount</span>
+                            <span class="amount--value">₹10000</span>
+                        </div>
+                        <i class="fa-solid fa-rupee icon"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 4523</span>
+                </div>
+
+
+
+                <div class="payment--card light-purple">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">payment order</span>
+                            <span class="amount--value">₹1000</span>
+                        </div>
+                        <i class="fas fa-list icon dark-purple"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 2525</span>
+                </div>
+
+
+                <div class="payment--card light-green">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">payment customers</span>
+                            <span class="amount--value">₹10000</span>
+                        </div>
+                        <i class="fa-solid fa-users icon dark-green"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 4722</span>
+                </div>
+
+
+
+                <div class="payment--card light-blue">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">payment process</span>
+                            <span class="amount--value">₹10000</span>
+                        </div>
+                        <i class="fa-solid fa-check icon dark-blue"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 2245</span>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="tabular--wrapper">
+            <h3 class="main--title">Finance data</h3>
+
+            <div class="table--container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Transaction type</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>category</th>
+                            <th>stutus</th>
+                            <th>action</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                            <td>2025-02-12</td>
+                            <td>expenses</td>
+                            <td>office supplies</td>
+                            <td>₹25000</td>
+                            <td>office expenses</td>
+                            <td>panding</td>
+                            <td><button type="button">Edit</button></td>
+                            </tr>
+
+                            <tr>
+                            <td>2025-02-14</td>
+                            <td>expenses</td>
+                            <td>office supplies</td>
+                            <td>₹10000</td>
+                            <td>office expenses</td>
+                            <td>panding</td>
+                            <td><button type="button">Edit</button></td>
+                            </tr>
+
+                            <tr>
+                            <td>2025-02-16</td>
+                            <td>expenses</td>
+                            <td>office supplies</td>
+                            <td>₹50000</td>
+                            <td>office expenses</td>
+                            <td>panding</td>
+                            <td><button type="button">Edit</button></td>
+                            </tr>
+
+                            <tr>
+                            <td>2025-02-20</td>
+                            <td>expenses</td>
+                            <td>office supplies</td>
+                            <td>₹40000</td>
+                            <td>office expenses</td>
+                            <td>panding</td>
+                            <td><button type="button">Edit</button></td>
+                            </tr>
+
+
+
+                        </tbody>
+                        <<tfoot>
+                            <td colspan="7">Total: ₹100000</td>
+                        </tfoot>>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>       
+</body>
+</html>
